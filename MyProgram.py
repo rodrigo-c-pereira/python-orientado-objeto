@@ -30,7 +30,7 @@ class Cliente:
 
 
 perfil_cliente = Cliente('Rodrigo Pereira', '123-456', 'basic', 'rodrigo@outlook.com')
-print(perfil_cliente.nome)
+print(perfil_cliente.email)
 print(perfil_cliente.plano)
 perfil_cliente.ver_filme("Creed", "premium")
 perfil_cliente.mudar_plano("premium")
